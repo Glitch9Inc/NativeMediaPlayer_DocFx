@@ -320,6 +320,90 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.Settings.AVAudioSessionCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.Settings.AVAudioSessionCategory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.Settings.AVAudioSessionCategory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.Settings.AndroidSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.Settings.AndroidSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.Settings.AndroidSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.Settings.MediaPlayerSettings.RepeatMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.Settings.MediaPlayerSettings.RepeatMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.Settings.MediaPlayerSettings.RepeatMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.Settings.MediaPlayerSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.Settings.MediaPlayerSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.Settings.MediaPlayerSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.Settings.iOSSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.Settings.iOSSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.Settings.iOSSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.Settings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.Settings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.AddIndexType.yml",
       "output": {
         ".html": {

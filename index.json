@@ -109,6 +109,36 @@
     "title": "Enum RepeatMode | Native Media Player",
     "summary": "Enum RepeatMode Namespace: Glitch9.NativeMediaPlayer Assembly: .dll Syntax public enum RepeatMode : short Fields Name Description Disabled RepeatAll RepeatOne"
   },
+  "api/Glitch9.NativeMediaPlayer.Settings.AVAudioSessionCategory.html": {
+    "href": "api/Glitch9.NativeMediaPlayer.Settings.AVAudioSessionCategory.html",
+    "title": "Enum AVAudioSessionCategory | Native Media Player",
+    "summary": "Enum AVAudioSessionCategory Namespace: Glitch9.NativeMediaPlayer.Settings Assembly: .dll Syntax public enum AVAudioSessionCategory Fields Name Description Ambient The category for an app in which sound playback is nonprimary — that is, your app also works with the sound turned off. MultiRoute The category for routing distinct streams of audio data to different output devices at the same time. PlayAndRecord The category for recording (input) and playback (output) of audio, such as for a Voice over Internet Protocol (VoIP) app. Playback The category for playing recorded music or other sounds that are central to the successful use of your app. Record The category for recording audio while also silencing playback audio. SoloAmbient The default audio session category."
+  },
+  "api/Glitch9.NativeMediaPlayer.Settings.AndroidSettings.html": {
+    "href": "api/Glitch9.NativeMediaPlayer.Settings.AndroidSettings.html",
+    "title": "Class AndroidSettings | Native Media Player",
+    "summary": "Class AndroidSettings Inheritance object AndroidSettings Namespace: Glitch9.NativeMediaPlayer.Settings Assembly: .dll Syntax public class AndroidSettings : ScriptableResource<AndroidSettings> Fields | Edit this page View Source notificationChannelDescription Declaration protected string notificationChannelDescription Field Value Type Description string | Edit this page View Source notificationChannelName Declaration protected string notificationChannelName Field Value Type Description string | Edit this page View Source smallIcon Declaration protected Sprite smallIcon Field Value Type Description Sprite Methods | Edit this page View Source Initialize() Declaration public void Initialize()"
+  },
+  "api/Glitch9.NativeMediaPlayer.Settings.MediaPlayerSettings.RepeatMode.html": {
+    "href": "api/Glitch9.NativeMediaPlayer.Settings.MediaPlayerSettings.RepeatMode.html",
+    "title": "Enum MediaPlayerSettings.RepeatMode | Native Media Player",
+    "summary": "Enum MediaPlayerSettings.RepeatMode Namespace: Glitch9.NativeMediaPlayer.Settings Assembly: .dll Syntax public enum MediaPlayerSettings.RepeatMode : short Fields Name Description Disabled RepeatAll RepeatOne"
+  },
+  "api/Glitch9.NativeMediaPlayer.Settings.MediaPlayerSettings.html": {
+    "href": "api/Glitch9.NativeMediaPlayer.Settings.MediaPlayerSettings.html",
+    "title": "Class MediaPlayerSettings | Native Media Player",
+    "summary": "Class MediaPlayerSettings Inheritance object MediaPlayerSettings Namespace: Glitch9.NativeMediaPlayer.Settings Assembly: .dll Syntax public class MediaPlayerSettings : ScriptableResource<MediaPlayerSettings> Properties | Edit this page View Source BackgroundControlsEnabled Declaration public static bool BackgroundControlsEnabled { get; } Property Value Type Description bool | Edit this page View Source BackgroundPlayEnabled Declaration public static bool BackgroundPlayEnabled { get; } Property Value Type Description bool | Edit this page View Source DarkModeDisabledColor Declaration public static Color DarkModeDisabledColor { get; } Property Value Type Description Color | Edit this page View Source DarkModeEnabledColor Declaration public static Color DarkModeEnabledColor { get; } Property Value Type Description Color | Edit this page View Source LightModeDisabledColor Declaration public static Color LightModeDisabledColor { get; } Property Value Type Description Color | Edit this page View Source LightModeEnabledColor Declaration public static Color LightModeEnabledColor { get; } Property Value Type Description Color | Edit this page View Source StartMediaItemIndex Declaration public static int StartMediaItemIndex { get; } Property Value Type Description int Methods | Edit this page View Source Initialize() Declaration public void Initialize()"
+  },
+  "api/Glitch9.NativeMediaPlayer.Settings.html": {
+    "href": "api/Glitch9.NativeMediaPlayer.Settings.html",
+    "title": "Namespace Glitch9.NativeMediaPlayer.Settings | Native Media Player",
+    "summary": "Namespace Glitch9.NativeMediaPlayer.Settings Classes AndroidSettings MediaPlayerSettings iOSSettings Enums AVAudioSessionCategory MediaPlayerSettings.RepeatMode"
+  },
+  "api/Glitch9.NativeMediaPlayer.Settings.iOSSettings.html": {
+    "href": "api/Glitch9.NativeMediaPlayer.Settings.iOSSettings.html",
+    "title": "Class iOSSettings | Native Media Player",
+    "summary": "Class iOSSettings Inheritance object iOSSettings Namespace: Glitch9.NativeMediaPlayer.Settings Assembly: .dll Syntax public class iOSSettings : ScriptableResource<iOSSettings> Methods | Edit this page View Source Initialize() Declaration public void Initialize()"
+  },
   "api/Glitch9.NativeMediaPlayer.UI.AddIndexType.html": {
     "href": "api/Glitch9.NativeMediaPlayer.UI.AddIndexType.html",
     "title": "Enum AddIndexType | Native Media Player",
@@ -247,7 +277,7 @@
   "api/Glitch9.NativeMediaPlayer.UI.html": {
     "href": "api/Glitch9.NativeMediaPlayer.UI.html",
     "title": "Namespace Glitch9.NativeMediaPlayer.UI | Native Media Player",
-    "summary": "Namespace Glitch9.NativeMediaPlayer.UI Classes ArtworkDisplay ButtonColor ButtonColor.Disabled ButtonColor.Enabled FastForwardButtonEvent MediaButton MediaButtonEvent MediaIcons MediaInfoText NextButtonEvent PauseButtonEvent PlayButtonEvent PlayToggleEvent PreviousButtonEvent RepeatAllButtonEvent RepeatOneButtonEvent RepeatToggleEvent RewindButtonEvent SeekBar ShuffleButtonEvent StopButtonEvent VolumeBar Enums AddIndexType MediaIndexFormat MediaInfoType MediaInterface MediaTimeFormat"
+    "summary": "Namespace Glitch9.NativeMediaPlayer.UI Classes ArtworkDisplay MediaButton MediaIcons MediaInfoText SeekBar VolumeBar Enums MediaIndexFormat MediaInfoType MediaInterface MediaTimeFormat"
   },
   "api/Glitch9.NativeMediaPlayer.UriType.html": {
     "href": "api/Glitch9.NativeMediaPlayer.UriType.html",
@@ -257,7 +287,7 @@
   "api/Glitch9.NativeMediaPlayer.html": {
     "href": "api/Glitch9.NativeMediaPlayer.html",
     "title": "Namespace Glitch9.NativeMediaPlayer | Native Media Player",
-    "summary": "Namespace Glitch9.NativeMediaPlayer Classes AndroidSettings Artwork ArtworkJsonConverter MediaItem MediaItemAsset MediaMetadata MediaPlayer MediaPlayerControlEventsListener MediaPlayerSettings MediaPlayerStateEventsListener MediaPlayerSystemEventsListener MediaUri NMPExtensions NativeMediaPlayer PlaybackStateExtensions Playlist PlaylistAsset iOSSettings Enums AVAudioSessionCategory ImageType MediaPlayerSettings.RepeatMode PlaybackState Android ExoPlayer-Style Playback State RepeatMode UriType"
+    "summary": "Namespace Glitch9.NativeMediaPlayer Classes Artwork ArtworkJsonConverter MediaItem MediaItemAsset MediaMetadata MediaPlayer MediaPlayerControlEventsListener MediaPlayerStateEventsListener MediaPlayerSystemEventsListener MediaUri NMPExtensions NativeMediaPlayer PlaybackStateExtensions Playlist PlaylistAsset Enums ImageType PlaybackState Android ExoPlayer-Style Playback State RepeatMode UriType"
   },
   "api/Glitch9.NativeMediaPlayer.iOSSettings.html": {
     "href": "api/Glitch9.NativeMediaPlayer.iOSSettings.html",
