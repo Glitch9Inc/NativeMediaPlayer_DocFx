@@ -1,0 +1,2482 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class MediaPlayer | Native Media Player </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class MediaPlayer | Native Media Player ">
+    
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="Native Media Player">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer">
+
+
+
+  <h1 id="Glitch9_NativeMediaPlayer_MediaPlayer" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer" class="text-break">Class MediaPlayer</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">MediaPlayer</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Glitch9.html">Glitch9</a>.<a class="xref" href="Glitch9.NativeMediaPlayer.html">NativeMediaPlayer</a></h6>
+  <h6><strong>Assembly</strong>: .dll</h6>
+  <h5 id="Glitch9_NativeMediaPlayer_MediaPlayer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class MediaPlayer</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_BackgroundControlsEnabled.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.BackgroundControlsEnabled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L270">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_BackgroundControlsEnabled_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.BackgroundControlsEnabled*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_BackgroundControlsEnabled" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.BackgroundControlsEnabled">BackgroundControlsEnabled</h4>
+  <div class="markdown level1 summary"><p>Show or hide the native background media controls (Android: MediaStyleNotification / iOS: MPNowPlayingInfoCenter).
+It's sometimes unstable on runtime, so it's recommended to set this property before playing media.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool BackgroundControlsEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_BackgroundPlayEnabled.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.BackgroundPlayEnabled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L259">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_BackgroundPlayEnabled_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.BackgroundPlayEnabled*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_BackgroundPlayEnabled" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.BackgroundPlayEnabled">BackgroundPlayEnabled</h4>
+  <div class="markdown level1 summary"><p>Indicates if the background mode is enabled.</p>
+<p>Note that this property DOES NOT have platform-specific implementation
+and is handled by <a class="xref" href="Glitch9.NativeMediaPlayer.html">Glitch9.NativeMediaPlayer</a> scene object within Unity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool BackgroundPlayEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Glitch9_NativeMediaPlayer_MediaPlayer_BackgroundPlayEnabled_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>True by default.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_CurrentMediaItem.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.CurrentMediaItem%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L61">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_CurrentMediaItem_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.CurrentMediaItem*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_CurrentMediaItem" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.CurrentMediaItem">CurrentMediaItem</h4>
+  <div class="markdown level1 summary"><p>Gets the current <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MediaItem CurrentMediaItem { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_CurrentMediaItemIndex.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.CurrentMediaItemIndex%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L194">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_CurrentMediaItemIndex_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.CurrentMediaItemIndex*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_CurrentMediaItemIndex" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.CurrentMediaItemIndex">CurrentMediaItemIndex</h4>
+  <div class="markdown level1 summary"><p>Retrieves the current <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>'s index from the native side of the plugin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int CurrentMediaItemIndex { }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_CurrentMediaItemUriType.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.CurrentMediaItemUriType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L62">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_CurrentMediaItemUriType_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.CurrentMediaItemUriType*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_CurrentMediaItemUriType" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.CurrentMediaItemUriType">CurrentMediaItemUriType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UriType CurrentMediaItemUriType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.UriType.html">UriType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_CurrentPlaylist.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.CurrentPlaylist%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L42">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_CurrentPlaylist_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.CurrentPlaylist*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_CurrentPlaylist" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.CurrentPlaylist">CurrentPlaylist</h4>
+  <div class="markdown level1 summary"><p>Gets the current playlist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Playlist CurrentPlaylist { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_CurrentPlaylistIndex.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.CurrentPlaylistIndex%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L185">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_CurrentPlaylistIndex_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.CurrentPlaylistIndex*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_CurrentPlaylistIndex" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.CurrentPlaylistIndex">CurrentPlaylistIndex</h4>
+  <div class="markdown level1 summary"><p>Gets the current <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int CurrentPlaylistIndex { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_HasNextMediaItem.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.HasNextMediaItem%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L238">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_HasNextMediaItem_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.HasNextMediaItem*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_HasNextMediaItem" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.HasNextMediaItem">HasNextMediaItem</h4>
+  <div class="markdown level1 summary"><p>Checks if there is a next <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasNextMediaItem { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if there is a next <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_HasNextPlaylist.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.HasNextPlaylist%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L208">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_HasNextPlaylist_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.HasNextPlaylist*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_HasNextPlaylist" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.HasNextPlaylist">HasNextPlaylist</h4>
+  <div class="markdown level1 summary"><p>Checks if there is a next <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasNextPlaylist { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_HasPreviousMediaItem.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.HasPreviousMediaItem%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L219">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_HasPreviousMediaItem_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.HasPreviousMediaItem*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_HasPreviousMediaItem" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.HasPreviousMediaItem">HasPreviousMediaItem</h4>
+  <div class="markdown level1 summary"><p>Checks if there is a previous <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasPreviousMediaItem { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if there is a previous <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_HasPreviousPlaylist.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.HasPreviousPlaylist%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L213">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_HasPreviousPlaylist_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.HasPreviousPlaylist*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_HasPreviousPlaylist" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.HasPreviousPlaylist">HasPreviousPlaylist</h4>
+  <div class="markdown level1 summary"><p>Checks if there is a previous <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasPreviousPlaylist { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_IsInitialized.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.IsInitialized%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L12">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_IsInitialized_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.IsInitialized*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_IsInitialized" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.IsInitialized">IsInitialized</h4>
+  <div class="markdown level1 summary"><p>Indicates if the NativeMediaPlayer plugin is initialized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInitialized { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_IsLoading.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.IsLoading%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L171">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_IsLoading_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.IsLoading*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_IsLoading" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.IsLoading">IsLoading</h4>
+  <div class="markdown level1 summary"><p>Indicates if the NativeMediaPlayer plugin is currently loading media from remote URL (http/https).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsLoading { }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_IsPlaying.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.IsPlaying%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L157">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_IsPlaying_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.IsPlaying*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_IsPlaying" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.IsPlaying">IsPlaying</h4>
+  <div class="markdown level1 summary"><p>Indicates if the NativeMediaPlayer plugin is currently playing media.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsPlaying { }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_IsReady.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.IsReady%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L18">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_IsReady_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.IsReady*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_IsReady" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.IsReady">IsReady</h4>
+  <div class="markdown level1 summary"><p>Checks if the NativeMediaPlayer plugin is ready to play media.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsReady { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_LastDuration.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.LastDuration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L77">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_LastDuration_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.LastDuration*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_LastDuration" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.LastDuration">LastDuration</h4>
+  <div class="markdown level1 summary"><p>Gets the duration of the last played <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float LastDuration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_LastError.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.LastError%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L67">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_LastError_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.LastError*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_LastError" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.LastError">LastError</h4>
+  <div class="markdown level1 summary"><p>Gets the last error message from the NativeMediaPlayer plugin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LastError { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_LastMediaItemIndex.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.LastMediaItemIndex%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L72">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_LastMediaItemIndex_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.LastMediaItemIndex*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_LastMediaItemIndex" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.LastMediaItemIndex">LastMediaItemIndex</h4>
+  <div class="markdown level1 summary"><p>Gets the index of the last <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> played.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int LastMediaItemIndex { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_LastPosition.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.LastPosition%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L82">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_LastPosition_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.LastPosition*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_LastPosition" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.LastPosition">LastPosition</h4>
+  <div class="markdown level1 summary"><p>Gets the last playback position of the last played <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float LastPosition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_ListenerId.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.ListenerId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L323">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_ListenerId_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.ListenerId*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_ListenerId" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.ListenerId">ListenerId</h4>
+  <div class="markdown level1 summary"><p>Name of the listener object in the scene.
+The listener object in the latest version is <a class="xref" href="Glitch9.NativeMediaPlayer.html">Glitch9.NativeMediaPlayer</a>.
+In previous versions, it was MediaEventListener.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ListenerId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Logger.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Logger%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L87">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Logger_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Logger*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Logger" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Logger">Logger</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the logger instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ILogger Logger { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ILogger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_PlaybackState.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.PlaybackState%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L31">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_PlaybackState_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.PlaybackState*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_PlaybackState" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.PlaybackState">PlaybackState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PlaybackState PlaybackState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.PlaybackState.html">PlaybackState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Playlists.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Playlists%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L36">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Playlists_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Playlists*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Playlists" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Playlists">Playlists</h4>
+  <div class="markdown level1 summary"><p>Gets the collection of playlists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IReadOnlyDictionary&lt;int, Playlist&gt; Playlists { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">int</span>, <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_PreBufferDuration.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.PreBufferDuration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L311">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_PreBufferDuration_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.PreBufferDuration*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_PreBufferDuration" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.PreBufferDuration">PreBufferDuration</h4>
+  <div class="markdown level1 summary"><p>Controls how many seconds of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to pre-buffer before playing when it is <a class="xref" href="Glitch9.NativeMediaPlayer.UriType.html#Glitch9_NativeMediaPlayer_UriType_StreamingUrl">StreamingUrl</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int PreBufferDuration { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Glitch9_NativeMediaPlayer_MediaPlayer_PreBufferDuration_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This property is shared between Unity and native plugins via PlayerPrefs.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_RepeatMode.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.RepeatMode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L116">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_RepeatMode_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.RepeatMode*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_RepeatMode" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.RepeatMode">RepeatMode</h4>
+  <div class="markdown level1 summary"><p>Repeat mode control property, with platform-specific implementation.</p>
+<p>0: No repeat, 1: Repeat all, 2: Repeat one</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RepeatMode RepeatMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.RepeatMode.html">RepeatMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_SeekIncrement.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.SeekIncrement%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L300">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_SeekIncrement_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SeekIncrement*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_SeekIncrement" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SeekIncrement">SeekIncrement</h4>
+  <div class="markdown level1 summary"><p>Controls how many seconds to seek forward or backward.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int SeekIncrement { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Glitch9_NativeMediaPlayer_MediaPlayer_SeekIncrement_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This property is shared between Unity and native plugins via PlayerPrefs.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_ShuffleModeEnabled.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.ShuffleModeEnabled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L140">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_ShuffleModeEnabled_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.ShuffleModeEnabled*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_ShuffleModeEnabled" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.ShuffleModeEnabled">ShuffleModeEnabled</h4>
+  <div class="markdown level1 summary"><p>Shuffle mode control property, with platform-specific implementation.</p>
+<p>True: Shuffle mode enabled, False: Shuffle mode disabled</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ShuffleModeEnabled { }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Volume.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Volume%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L98">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Volume_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Volume*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Volume" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Volume">Volume</h4>
+  <div class="markdown level1 summary"><p>Volume control property, with platform-specific implementation.</p>
+<p>Value range: 0.0 to 1.0</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Volume { }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_AddMediaItem_Glitch9_NativeMediaPlayer_MediaItem_System_Int32_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.AddMediaItem(Glitch9.NativeMediaPlayer.MediaItem%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L827">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_AddMediaItem_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.AddMediaItem*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_AddMediaItem_Glitch9_NativeMediaPlayer_MediaItem_System_Int32_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.AddMediaItem(Glitch9.NativeMediaPlayer.MediaItem,System.Int32)">AddMediaItem(MediaItem, int)</h4>
+  <div class="markdown level1 summary"><p>Adds a <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to the current <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddMediaItem(MediaItem item, int mediaItemIndex = -1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>The <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">mediaItemIndex</span></td>
+        <td><p>The index at which to add the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Glitch9_NativeMediaPlayer_MediaPlayer_AddMediaItem_Glitch9_NativeMediaPlayer_MediaItem_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Note that altering the <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> on runtime can cause unexpected behavior.
+It is safer to create a new <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> instead.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_AddPlaylist_Glitch9_NativeMediaPlayer_Playlist_System_Action_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.AddPlaylist(Glitch9.NativeMediaPlayer.Playlist%2CSystem.Action)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L531">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_AddPlaylist_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.AddPlaylist*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_AddPlaylist_Glitch9_NativeMediaPlayer_Playlist_System_Action_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.AddPlaylist(Glitch9.NativeMediaPlayer.Playlist,System.Action)">AddPlaylist(Playlist, Action)</h4>
+  <div class="markdown level1 summary"><p>Add a new <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to the list of playlists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddPlaylist(Playlist playlist, Action onPlaylistLoaded)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a></td>
+        <td><span class="parametername">playlist</span></td>
+        <td><p>The <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td><span class="parametername">onPlaylistLoaded</span></td>
+        <td><p>The action to perform when the playlist is loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_AddPlaylist_Glitch9_NativeMediaPlayer_Playlist_System_Boolean_System_Int32_System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.AddPlaylist(Glitch9.NativeMediaPlayer.Playlist%2CSystem.Boolean%2CSystem.Int32%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L514">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_AddPlaylist_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.AddPlaylist*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_AddPlaylist_Glitch9_NativeMediaPlayer_Playlist_System_Boolean_System_Int32_System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.AddPlaylist(Glitch9.NativeMediaPlayer.Playlist,System.Boolean,System.Int32,System.Single)">AddPlaylist(Playlist, bool, int, float)</h4>
+  <div class="markdown level1 summary"><p>Add a new <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to the list of playlists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddPlaylist(Playlist playlist, bool playWhenReady = false, int startMediaItemIndex = 0, float startPosition = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a></td>
+        <td><span class="parametername">playlist</span></td>
+        <td><p>The <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">playWhenReady</span></td>
+        <td><p>Whether to start playback when the plugin is initialized.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">startMediaItemIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to start playback from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td><p>The position to start playback from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_AddPlaylist_Glitch9_NativeMediaPlayer_Playlist_System_Int32_System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.AddPlaylist(Glitch9.NativeMediaPlayer.Playlist%2CSystem.Int32%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L543">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_AddPlaylist_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.AddPlaylist*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_AddPlaylist_Glitch9_NativeMediaPlayer_Playlist_System_Int32_System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.AddPlaylist(Glitch9.NativeMediaPlayer.Playlist,System.Int32,System.Single)">AddPlaylist(Playlist, int, float)</h4>
+  <div class="markdown level1 summary"><p>Add a new <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to the list of playlists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddPlaylist(Playlist playlist, int startMediaItemIndex, float startPosition = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a></td>
+        <td><span class="parametername">playlist</span></td>
+        <td><p>The <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">startMediaItemIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to start playback from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td><p>The position to start playback from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_ClearPlaylist.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.ClearPlaylist%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L923">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_ClearPlaylist_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.ClearPlaylist*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_ClearPlaylist" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.ClearPlaylist">ClearPlaylist()</h4>
+  <div class="markdown level1 summary"><p>Clears <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>s from the current <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearPlaylist()</code></pre>
+  </div>
+  <h5 id="Glitch9_NativeMediaPlayer_MediaPlayer_ClearPlaylist_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Note that altering the <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> on runtime can cause unexpected behavior.
+It is safer to create a new <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> instead.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_FadeIn_System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.FadeIn(System.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L631">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_FadeIn_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.FadeIn*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_FadeIn_System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.FadeIn(System.Single)">FadeIn(float)</h4>
+  <div class="markdown level1 summary"><p>Fades in the current <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> over a specified duration. (in seconds)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FadeIn(float duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>The duration of the fade-in effect.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_FadeOut_System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.FadeOut(System.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L647">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_FadeOut_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.FadeOut*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_FadeOut_System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.FadeOut(System.Single)">FadeOut(float)</h4>
+  <div class="markdown level1 summary"><p>Fades out the current <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> over a specified duration. (in seconds)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FadeOut(float duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>The duration of the fade-out effect.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_FastForward.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.FastForward%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L722">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_FastForward_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.FastForward*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_FastForward" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.FastForward">FastForward()</h4>
+  <div class="markdown level1 summary"><p>Fast-forwards the current <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> by <a class="xref" href="Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_SeekIncrement">SeekIncrement</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FastForward()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_GetCurrentPosition.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.GetCurrentPosition%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L785">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_GetCurrentPosition_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.GetCurrentPosition*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_GetCurrentPosition" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.GetCurrentPosition">GetCurrentPosition()</h4>
+  <div class="markdown level1 summary"><p>Gets the current playback position of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetCurrentPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><p>The current playback position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_GetDuration.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.GetDuration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L769">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_GetDuration_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.GetDuration*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_GetDuration" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.GetDuration">GetDuration()</h4>
+  <div class="markdown level1 summary"><p>Gets the duration of the current <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetDuration()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><p>The duration of the current <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_GetMediaItem_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.GetMediaItem(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L964">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_GetMediaItem_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.GetMediaItem*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_GetMediaItem_System_Int32_System_Int32_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.GetMediaItem(System.Int32,System.Int32)">GetMediaItem(int, int)</h4>
+  <div class="markdown level1 summary"><p>Gets a media item by its index and optional playlist index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MediaItem GetMediaItem(int mediaItemIndex, int playlistIndex = -1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">mediaItemIndex</span></td>
+        <td><p>The index of the media item to get.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">playlistIndex</span></td>
+        <td><p>The index of the playlist to get the media item from. If -1, uses the current playlist index.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a></td>
+        <td><p>The media item if found; otherwise, null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_GetNativePlayerName.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.GetNativePlayerName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L1001">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_GetNativePlayerName_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.GetNativePlayerName*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_GetNativePlayerName" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.GetNativePlayerName">GetNativePlayerName()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetNativePlayerName()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_GetPlaylist_System_Int32_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.GetPlaylist(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L941">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_GetPlaylist_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.GetPlaylist*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_GetPlaylist_System_Int32_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.GetPlaylist(System.Int32)">GetPlaylist(int)</h4>
+  <div class="markdown level1 summary"><p>Gets a playlist by its index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Playlist GetPlaylist(int playlistIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">playlistIndex</span></td>
+        <td><p>The index of the playlist to get.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a></td>
+        <td><p>The playlist if found; otherwise, null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_GetShuffleOrder.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.GetShuffleOrder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L801">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_GetShuffleOrder_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.GetShuffleOrder*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_GetShuffleOrder" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.GetShuffleOrder">GetShuffleOrder()</h4>
+  <div class="markdown level1 summary"><p>Gets the shuffle order of the current <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int[] GetShuffleOrder()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span>[]</td>
+        <td><p>An array representing the shuffle order.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_Glitch9_NativeMediaPlayer_MediaItem_System_Nullable_System_Boolean__System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.MediaItem%2CSystem.Nullable%7BSystem.Boolean%7D%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L342">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Initialize*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_Glitch9_NativeMediaPlayer_MediaItem_System_Nullable_System_Boolean__System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.MediaItem,System.Nullable{System.Boolean},System.Single)">Initialize(MediaItem, bool?, float)</h4>
+  <div class="markdown level1 summary"><p>Initialize the <a class="xref" href="Glitch9.NativeMediaPlayer.html">Glitch9.NativeMediaPlayer</a> plugin with a <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Initialize(MediaItem mediaItem, bool? playWhenReady = null, float startPosition = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a></td>
+        <td><span class="parametername">mediaItem</span></td>
+        <td><p>The <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to initialize the plugin with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span>?</td>
+        <td><span class="parametername">playWhenReady</span></td>
+        <td><p>Whether to start playback when the plugin is initialized.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td><p>The position to start playback from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_Glitch9_NativeMediaPlayer_MediaItem_System_Nullable_System_Boolean__System_Single__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Use this only when MediaPlayerSettings.AutoInit is set to false, and you are initializing the NativeMediaPlayer plugin manually.
+You also have to initialize <a class="xref" href="Glitch9.NativeMediaPlayer.AndroidSettings.html">AndroidSettings</a> and <a class="xref" href="Glitch9.NativeMediaPlayer.iOSSettings.html">iOSSettings</a> manually.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_Glitch9_NativeMediaPlayer_Playlist_System_Nullable_System_Boolean__System_Nullable_System_Int32__System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.Playlist%2CSystem.Nullable%7BSystem.Boolean%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L362">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Initialize*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_Glitch9_NativeMediaPlayer_Playlist_System_Nullable_System_Boolean__System_Nullable_System_Int32__System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.Playlist,System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Single)">Initialize(Playlist, bool?, int?, float)</h4>
+  <div class="markdown level1 summary"><p>Initialize the <a class="xref" href="Glitch9.NativeMediaPlayer.html">Glitch9.NativeMediaPlayer</a> plugin with a <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Initialize(Playlist playlist, bool? playWhenReady = null, int? startMediaItemIndex = null, float startPosition = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a></td>
+        <td><span class="parametername">playlist</span></td>
+        <td><p>The <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to initialize the plugin with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span>?</td>
+        <td><span class="parametername">playWhenReady</span></td>
+        <td><p>Whether to start playback when the plugin is initialized.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span>?</td>
+        <td><span class="parametername">startMediaItemIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to start playback from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td><p>The position to start playback from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_Glitch9_NativeMediaPlayer_Playlist_System_Nullable_System_Boolean__System_Nullable_System_Int32__System_Single__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Use this only when MediaPlayerSettings.AutoInit is set to false, and you are initializing the NativeMediaPlayer plugin manually.
+You also have to initialize <a class="xref" href="Glitch9.NativeMediaPlayer.AndroidSettings.html">AndroidSettings</a> and <a class="xref" href="Glitch9.NativeMediaPlayer.iOSSettings.html">iOSSettings</a> manually.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_System_Collections_Generic_IEnumerable_Glitch9_NativeMediaPlayer_Playlist__System_Nullable_System_Boolean__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(System.Collections.Generic.IEnumerable%7BGlitch9.NativeMediaPlayer.Playlist%7D%2CSystem.Nullable%7BSystem.Boolean%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L383">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Initialize*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_System_Collections_Generic_IEnumerable_Glitch9_NativeMediaPlayer_Playlist__System_Nullable_System_Boolean__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(System.Collections.Generic.IEnumerable{Glitch9.NativeMediaPlayer.Playlist},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Single)">Initialize(IEnumerable&lt;Playlist&gt;, bool?, int?, int?, float)</h4>
+  <div class="markdown level1 summary"><p>Initialize the <a class="xref" href="Glitch9.NativeMediaPlayer.html">Glitch9.NativeMediaPlayer</a> plugin with multiple <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a>s.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Initialize(IEnumerable&lt;Playlist&gt; playlists, bool? playWhenReady = null, int? startMediaItemIndex = null, int? startPlaylistIndex = null, float startPosition = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a>&gt;</td>
+        <td><span class="parametername">playlists</span></td>
+        <td><p>The list of <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a>s to initialize the plugin with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span>?</td>
+        <td><span class="parametername">playWhenReady</span></td>
+        <td><p>Whether to start playback when the plugin is initialized.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span>?</td>
+        <td><span class="parametername">startMediaItemIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to start playback from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span>?</td>
+        <td><span class="parametername">startPlaylistIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to start playback from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td><p>The position to start playback from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_System_Collections_Generic_IEnumerable_Glitch9_NativeMediaPlayer_Playlist__System_Nullable_System_Boolean__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Single__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Use this only when MediaPlayerSettings.AutoInit is set to false, and you are initializing the NativeMediaPlayer plugin manually.
+You also have to initialize <a class="xref" href="Glitch9.NativeMediaPlayer.AndroidSettings.html">AndroidSettings</a> and <a class="xref" href="Glitch9.NativeMediaPlayer.iOSSettings.html">iOSSettings</a> manually.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Next.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Next%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L707">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Next_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Next*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Next" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Next">Next()</h4>
+  <div class="markdown level1 summary"><p>Skips to the next <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Next()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_OnApplicationPause_System_Boolean_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.OnApplicationPause(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L1029">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_OnApplicationPause_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.OnApplicationPause*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_OnApplicationPause_System_Boolean_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.OnApplicationPause(System.Boolean)">OnApplicationPause(bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OnApplicationPause(bool pause)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">pause</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_OnApplicationQuit.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.OnApplicationQuit%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L1051">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_OnApplicationQuit_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.OnApplicationQuit*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_OnApplicationQuit" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.OnApplicationQuit">OnApplicationQuit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OnApplicationQuit()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Pause.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Pause%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L598">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Pause_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Pause*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Pause" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Pause">Pause()</h4>
+  <div class="markdown level1 summary"><p>Pauses media playback of the current <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Pause()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Play.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Play%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L565">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Play_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Play*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Play" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Play">Play()</h4>
+  <div class="markdown level1 summary"><p>Play the current <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.
+Please make sure that everything is set up correctly before calling this method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Play()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Play_Glitch9_NativeMediaPlayer_MediaItem_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Play(Glitch9.NativeMediaPlayer.MediaItem)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L871">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Play_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Play*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Play_Glitch9_NativeMediaPlayer_MediaItem_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Play(Glitch9.NativeMediaPlayer.MediaItem)">Play(MediaItem)</h4>
+  <div class="markdown level1 summary"><p>Plays a <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> from the current <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a>.
+If the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> is not in the <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a>, it will be added.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Play(MediaItem mediaItem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a></td>
+        <td><span class="parametername">mediaItem</span></td>
+        <td><p>The <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to play.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Play_System_Int32_System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Play(System.Int32%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L583">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Play_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Play*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Play_System_Int32_System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Play(System.Int32,System.Single)">Play(int, float)</h4>
+  <div class="markdown level1 summary"><p>Play the current <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> at the specified index and the position.
+Please make sure that everything is set up correctly before calling this method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Play(int mediaItemIndex, float startingPosition = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">mediaItemIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to play.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">startingPosition</span></td>
+        <td><p>The position to start playback from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_PlayUrl_System_String_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.PlayUrl(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L891">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_PlayUrl_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.PlayUrl*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_PlayUrl_System_String_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.PlayUrl(System.String)">PlayUrl(string)</h4>
+  <div class="markdown level1 summary"><p>Plays a <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> from the current <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> using a remote URL.
+If the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> is not in the <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a>, it will be added.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PlayUrl(string fileUrl)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">fileUrl</span></td>
+        <td><p>The remote URL of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to play.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Previous.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Previous%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L692">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Previous_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Previous*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Previous" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Previous">Previous()</h4>
+  <div class="markdown level1 summary"><p>Skips to the previous <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Previous()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Release.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Release%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L664">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Release_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Release*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Release" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Release">Release()</h4>
+  <div class="markdown level1 summary"><p>[CAUTION] Use this method very carefully.
+It will release all native audio player instances, and it won't be recoverable.
+You have to reinitialize the player to use it again.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Release()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_RemoveMediaItem_System_Int32_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.RemoveMediaItem(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L852">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_RemoveMediaItem_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.RemoveMediaItem*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_RemoveMediaItem_System_Int32_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.RemoveMediaItem(System.Int32)">RemoveMediaItem(int)</h4>
+  <div class="markdown level1 summary"><p>Removes a <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> from the current <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveMediaItem(int mediaItemIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">mediaItemIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to remove.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Glitch9_NativeMediaPlayer_MediaPlayer_RemoveMediaItem_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Note that altering the <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> on runtime can cause unexpected behavior.
+It is safer to create a new <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> instead.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_RemovePlaylist_System_Int32_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.RemovePlaylist(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L553">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_RemovePlaylist_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.RemovePlaylist*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_RemovePlaylist_System_Int32_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.RemovePlaylist(System.Int32)">RemovePlaylist(int)</h4>
+  <div class="markdown level1 summary"><p>Remove a <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> from the list of playlists.
+Note: Removing the current playlist will stop playback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemovePlaylist(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to remove.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Rewind.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Rewind%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L737">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Rewind_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Rewind*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Rewind" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Rewind">Rewind()</h4>
+  <div class="markdown level1 summary"><p>Rewinds the current <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> by <a class="xref" href="Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_SeekIncrement">SeekIncrement</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Rewind()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_SeekTo_System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.SeekTo(System.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L753">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_SeekTo_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SeekTo*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_SeekTo_System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SeekTo(System.Single)">SeekTo(float)</h4>
+  <div class="markdown level1 summary"><p>Seeks to a specific time in the current <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SeekTo(float time)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">time</span></td>
+        <td><p>The time to seek to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_SelectPlaylist_System_Int32_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.SelectPlaylist(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L422">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_SelectPlaylist_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SelectPlaylist*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_SelectPlaylist_System_Int32_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SelectPlaylist(System.Int32)">SelectPlaylist(int)</h4>
+  <div class="markdown level1 summary"><p>Change the current <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to the one at the specified index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SelectPlaylist(int playlistIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">playlistIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to change to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_SelectPlaylist_System_Int32_System_Boolean_System_Int32_System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.SelectPlaylist(System.Int32%2CSystem.Boolean%2CSystem.Int32%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L402">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_SelectPlaylist_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SelectPlaylist*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_SelectPlaylist_System_Int32_System_Boolean_System_Int32_System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SelectPlaylist(System.Int32,System.Boolean,System.Int32,System.Single)">SelectPlaylist(int, bool, int, float)</h4>
+  <div class="markdown level1 summary"><p>Change the current <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to the one at the specified index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SelectPlaylist(int playlistIndex, bool playWhenReady = false, int startMediaItemIndex = 0, float startPosition = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">playlistIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to change to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">playWhenReady</span></td>
+        <td><p>Whether to start playback when the plugin is initialized.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">startMediaItemIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to start playback from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td><p>The position to start playback from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_SelectPlaylist_System_Int32_System_Int32_System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.SelectPlaylist(System.Int32%2CSystem.Int32%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L434">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_SelectPlaylist_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SelectPlaylist*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_SelectPlaylist_System_Int32_System_Int32_System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SelectPlaylist(System.Int32,System.Int32,System.Single)">SelectPlaylist(int, int, float)</h4>
+  <div class="markdown level1 summary"><p>Change the current <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to the one at the specified index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SelectPlaylist(int playlistIndex, int startMediaItemIndex, float startPosition = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">playlistIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to change to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">startMediaItemIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to start playback from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td><p>The position to start playback from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_SetMediaItem_Glitch9_NativeMediaPlayer_MediaItem_System_Boolean_System_Int32_System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.SetMediaItem(Glitch9.NativeMediaPlayer.MediaItem%2CSystem.Boolean%2CSystem.Int32%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L501">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_SetMediaItem_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SetMediaItem*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_SetMediaItem_Glitch9_NativeMediaPlayer_MediaItem_System_Boolean_System_Int32_System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SetMediaItem(Glitch9.NativeMediaPlayer.MediaItem,System.Boolean,System.Int32,System.Single)">SetMediaItem(MediaItem, bool, int, float)</h4>
+  <div class="markdown level1 summary"><p>Set the current <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to the specified <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetMediaItem(MediaItem mediaItem, bool playWhenReady = false, int startMediaItemIndex = 0, float startPosition = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a></td>
+        <td><span class="parametername">mediaItem</span></td>
+        <td><p>The <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">playWhenReady</span></td>
+        <td><p>Whether to start playback when the plugin is initialized.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">startMediaItemIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to start playback from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td><p>The position to start playback from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_SetMediaItem_Glitch9_NativeMediaPlayer_MediaItem_System_Int32_System_Boolean_System_Int32_System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.SetMediaItem(Glitch9.NativeMediaPlayer.MediaItem%2CSystem.Int32%2CSystem.Boolean%2CSystem.Int32%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L482">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_SetMediaItem_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SetMediaItem*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_SetMediaItem_Glitch9_NativeMediaPlayer_MediaItem_System_Int32_System_Boolean_System_Int32_System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SetMediaItem(Glitch9.NativeMediaPlayer.MediaItem,System.Int32,System.Boolean,System.Int32,System.Single)">SetMediaItem(MediaItem, int, bool, int, float)</h4>
+  <div class="markdown level1 summary"><p>Replaces the current playlist with the new playlist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetMediaItem(MediaItem mediaItem, int playlistIndex, bool playWhenReady = false, int startMediaItemIndex = 0, float startPosition = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a></td>
+        <td><span class="parametername">mediaItem</span></td>
+        <td><p>The <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">playlistIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to set the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">playWhenReady</span></td>
+        <td><p>Whether to start playback when the plugin is initialized.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">startMediaItemIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to start playback from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td><p>The position to start playback from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_SetPlaybackSpeed_System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.SetPlaybackSpeed(System.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L903">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_SetPlaybackSpeed_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SetPlaybackSpeed*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_SetPlaybackSpeed_System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SetPlaybackSpeed(System.Single)">SetPlaybackSpeed(float)</h4>
+  <div class="markdown level1 summary"><p>Alters the playback speed of the native player.
+It will be automatically reset to 1.0 when a new media item is played.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPlaybackSpeed(float speed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">speed</span></td>
+        <td><p>The playback speed to set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_SetPlaylist_Glitch9_NativeMediaPlayer_Playlist_System_Boolean_System_Int32_System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.SetPlaylist(Glitch9.NativeMediaPlayer.Playlist%2CSystem.Boolean%2CSystem.Int32%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L468">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_SetPlaylist_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SetPlaylist*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_SetPlaylist_Glitch9_NativeMediaPlayer_Playlist_System_Boolean_System_Int32_System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SetPlaylist(Glitch9.NativeMediaPlayer.Playlist,System.Boolean,System.Int32,System.Single)">SetPlaylist(Playlist, bool, int, float)</h4>
+  <div class="markdown level1 summary"><p>Replaces the current playlist with the new playlist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPlaylist(Playlist playlist, bool playWhenReady = false, int startMediaItemIndex = 0, float startPosition = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a></td>
+        <td><span class="parametername">playlist</span></td>
+        <td><p>The <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">playWhenReady</span></td>
+        <td><p>Whether to start playback when the plugin is initialized.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">startMediaItemIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to start playback from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td><p>The position to start playback from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_SetPlaylist_Glitch9_NativeMediaPlayer_Playlist_System_Int32_System_Boolean_System_Int32_System_Single_.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.SetPlaylist(Glitch9.NativeMediaPlayer.Playlist%2CSystem.Int32%2CSystem.Boolean%2CSystem.Int32%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L448">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_SetPlaylist_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SetPlaylist*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_SetPlaylist_Glitch9_NativeMediaPlayer_Playlist_System_Int32_System_Boolean_System_Int32_System_Single_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.SetPlaylist(Glitch9.NativeMediaPlayer.Playlist,System.Int32,System.Boolean,System.Int32,System.Single)">SetPlaylist(Playlist, int, bool, int, float)</h4>
+  <div class="markdown level1 summary"><p>Replaces the playlist at the specified index with the new playlist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPlaylist(Playlist playlist, int playlistIndex, bool playWhenReady = false, int startMediaItemIndex = 0, float startPosition = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a></td>
+        <td><span class="parametername">playlist</span></td>
+        <td><p>The <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to Set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">playlistIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a> to replace.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">playWhenReady</span></td>
+        <td><p>Whether to start playback when the plugin is initialized.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">startMediaItemIndex</span></td>
+        <td><p>The index of the <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a> to start playback from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td><p>The position to start playback from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer_Stop.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer.Stop%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.cs/#L613">View Source</a>
+  </span>
+  <a id="Glitch9_NativeMediaPlayer_MediaPlayer_Stop_" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Stop*"></a>
+  <h4 id="Glitch9_NativeMediaPlayer_MediaPlayer_Stop" data-uid="Glitch9.NativeMediaPlayer.MediaPlayer.Stop">Stop()</h4>
+  <div class="markdown level1 summary"><p>Stops media playback of the current <a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Stop()</code></pre>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_MediaPlayer.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.MediaPlayer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Core/MediaPlayer.Internal.cs/#L7" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

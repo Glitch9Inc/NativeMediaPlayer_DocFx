@@ -1,0 +1,830 @@
+{
+  "source_base_path": "E:/DocFX/NMP",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.AVAudioSessionCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.AVAudioSessionCategory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.AVAudioSessionCategory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.AndroidSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.AndroidSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.AndroidSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.Artwork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.Artwork.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.Artwork",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.ArtworkJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.ArtworkJsonConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.ArtworkJsonConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.ImageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.ImageType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.ImageType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.MediaItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.MediaItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.MediaItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.MediaItemAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.MediaItemAsset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.MediaItemAsset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.MediaMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.MediaMetadata.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.MediaMetadata",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.MediaPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.MediaPlayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.MediaPlayer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.MediaPlayerControlEventsListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.MediaPlayerControlEventsListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.MediaPlayerControlEventsListener",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.MediaPlayerSettings.RepeatMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.MediaPlayerSettings.RepeatMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.MediaPlayerSettings.RepeatMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.MediaPlayerSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.MediaPlayerSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.MediaPlayerSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.MediaPlayerStateEventsListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.MediaPlayerStateEventsListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.MediaPlayerStateEventsListener",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.MediaPlayerSystemEventsListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.MediaPlayerSystemEventsListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.MediaPlayerSystemEventsListener",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.MediaUri.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.MediaUri.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.MediaUri",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.NMPExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.NMPExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.NMPExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.NativeMediaPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.NativeMediaPlayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.NativeMediaPlayer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.PlaybackState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.PlaybackState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.PlaybackState",
+      "Summary": "<p sourcefile=\"api/Glitch9.NativeMediaPlayer.PlaybackState.yml\" sourcestartlinenumber=\"1\">Android ExoPlayer-Style Playback State</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.PlaybackStateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.PlaybackStateExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.PlaybackStateExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.Playlist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.Playlist.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.Playlist",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.PlaylistAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.PlaylistAsset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.PlaylistAsset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.RepeatMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.RepeatMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.RepeatMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.AddIndexType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.AddIndexType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.AddIndexType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.ArtworkDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.ArtworkDisplay.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.ArtworkDisplay",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.ButtonColor.Disabled.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.ButtonColor.Disabled.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.ButtonColor.Disabled",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.ButtonColor.Enabled.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.ButtonColor.Enabled.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.ButtonColor.Enabled",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.ButtonColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.ButtonColor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.ButtonColor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.FastForwardButtonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.FastForwardButtonEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.FastForwardButtonEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaButton.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.MediaButton",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaButtonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaButtonEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.MediaButtonEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaIcons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaIcons.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.MediaIcons",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaIndexFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaIndexFormat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.MediaIndexFormat",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaInfoText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaInfoText.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.MediaInfoText",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaInfoType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaInfoType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.MediaInfoType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaInterface.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.MediaInterface",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaTimeFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.MediaTimeFormat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.MediaTimeFormat",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.NextButtonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.NextButtonEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.NextButtonEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.PauseButtonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.PauseButtonEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.PauseButtonEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.PlayButtonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.PlayButtonEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.PlayButtonEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.PlayToggleEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.PlayToggleEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.PlayToggleEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.PreviousButtonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.PreviousButtonEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.PreviousButtonEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.RepeatAllButtonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.RepeatAllButtonEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.RepeatAllButtonEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.RepeatOneButtonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.RepeatOneButtonEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.RepeatOneButtonEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.RepeatToggleEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.RepeatToggleEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.RepeatToggleEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.RewindButtonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.RewindButtonEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.RewindButtonEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.SeekBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.SeekBar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.SeekBar",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.ShuffleButtonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.ShuffleButtonEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.ShuffleButtonEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.StopButtonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.StopButtonEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.StopButtonEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.VolumeBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.VolumeBar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI.VolumeBar",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.UriType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.UriType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.UriType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.iOSSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.iOSSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.iOSSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
