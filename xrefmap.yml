@@ -215,6 +215,42 @@ references:
   commentId: F:Glitch9.NativeMediaPlayer.ImageType.StreamingAssets
   fullName: Glitch9.NativeMediaPlayer.ImageType.StreamingAssets
   nameWithType: ImageType.StreamingAssets
+- uid: Glitch9.NativeMediaPlayer.MediaControlEventsReceiver
+  name: MediaControlEventsReceiver
+  href: api/Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.html
+  commentId: T:Glitch9.NativeMediaPlayer.MediaControlEventsReceiver
+  fullName: Glitch9.NativeMediaPlayer.MediaControlEventsReceiver
+  nameWithType: MediaControlEventsReceiver
+- uid: Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onDownloadProgress
+  name: onDownloadProgress
+  href: api/Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.html#Glitch9_NativeMediaPlayer_MediaControlEventsReceiver_onDownloadProgress
+  commentId: F:Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onDownloadProgress
+  fullName: Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onDownloadProgress
+  nameWithType: MediaControlEventsReceiver.onDownloadProgress
+- uid: Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onMediaItemTransition
+  name: onMediaItemTransition
+  href: api/Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.html#Glitch9_NativeMediaPlayer_MediaControlEventsReceiver_onMediaItemTransition
+  commentId: F:Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onMediaItemTransition
+  fullName: Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onMediaItemTransition
+  nameWithType: MediaControlEventsReceiver.onMediaItemTransition
+- uid: Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onPlaylistLoaded
+  name: onPlaylistLoaded
+  href: api/Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.html#Glitch9_NativeMediaPlayer_MediaControlEventsReceiver_onPlaylistLoaded
+  commentId: F:Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onPlaylistLoaded
+  fullName: Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onPlaylistLoaded
+  nameWithType: MediaControlEventsReceiver.onPlaylistLoaded
+- uid: Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onRepeatModeChanged
+  name: onRepeatModeChanged
+  href: api/Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.html#Glitch9_NativeMediaPlayer_MediaControlEventsReceiver_onRepeatModeChanged
+  commentId: F:Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onRepeatModeChanged
+  fullName: Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onRepeatModeChanged
+  nameWithType: MediaControlEventsReceiver.onRepeatModeChanged
+- uid: Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onShuffleModeEnabledChanged
+  name: onShuffleModeEnabledChanged
+  href: api/Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.html#Glitch9_NativeMediaPlayer_MediaControlEventsReceiver_onShuffleModeEnabledChanged
+  commentId: F:Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onShuffleModeEnabledChanged
+  fullName: Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.onShuffleModeEnabledChanged
+  nameWithType: MediaControlEventsReceiver.onShuffleModeEnabledChanged
 - uid: Glitch9.NativeMediaPlayer.MediaItem
   name: MediaItem
   href: api/Glitch9.NativeMediaPlayer.MediaItem.html
@@ -1008,33 +1044,33 @@ references:
   isSpec: "True"
   fullName: Glitch9.NativeMediaPlayer.MediaPlayer.HasPreviousPlaylist
   nameWithType: MediaPlayer.HasPreviousPlaylist
-- uid: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.MediaItem,System.Nullable{System.Boolean},System.Single)
-  name: Initialize(MediaItem, bool?, float)
-  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_Glitch9_NativeMediaPlayer_MediaItem_System_Nullable_System_Boolean__System_Single_
-  commentId: M:Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.MediaItem,System.Nullable{System.Boolean},System.Single)
-  name.vb: Initialize(MediaItem, Boolean?, Single)
-  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.MediaItem, bool?, float)
-  fullName.vb: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.MediaItem, Boolean?, Single)
-  nameWithType: MediaPlayer.Initialize(MediaItem, bool?, float)
-  nameWithType.vb: MediaPlayer.Initialize(MediaItem, Boolean?, Single)
-- uid: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.Playlist,System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Single)
-  name: Initialize(Playlist, bool?, int?, float)
-  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_Glitch9_NativeMediaPlayer_Playlist_System_Nullable_System_Boolean__System_Nullable_System_Int32__System_Single_
-  commentId: M:Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.Playlist,System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Single)
-  name.vb: Initialize(Playlist, Boolean?, Integer?, Single)
-  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.Playlist, bool?, int?, float)
-  fullName.vb: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.Playlist, Boolean?, Integer?, Single)
-  nameWithType: MediaPlayer.Initialize(Playlist, bool?, int?, float)
-  nameWithType.vb: MediaPlayer.Initialize(Playlist, Boolean?, Integer?, Single)
-- uid: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(System.Collections.Generic.IEnumerable{Glitch9.NativeMediaPlayer.Playlist},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Single)
-  name: Initialize(IEnumerable<Playlist>, bool?, int?, int?, float)
-  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_System_Collections_Generic_IEnumerable_Glitch9_NativeMediaPlayer_Playlist__System_Nullable_System_Boolean__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Single_
-  commentId: M:Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(System.Collections.Generic.IEnumerable{Glitch9.NativeMediaPlayer.Playlist},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Single)
-  name.vb: Initialize(IEnumerable(Of Playlist), Boolean?, Integer?, Integer?, Single)
-  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(System.Collections.Generic.IEnumerable<Glitch9.NativeMediaPlayer.Playlist>, bool?, int?, int?, float)
-  fullName.vb: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(System.Collections.Generic.IEnumerable(Of Glitch9.NativeMediaPlayer.Playlist), Boolean?, Integer?, Integer?, Single)
-  nameWithType: MediaPlayer.Initialize(IEnumerable<Playlist>, bool?, int?, int?, float)
-  nameWithType.vb: MediaPlayer.Initialize(IEnumerable(Of Playlist), Boolean?, Integer?, Integer?, Single)
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.MediaItem,System.Boolean,System.Single)
+  name: Initialize(MediaItem, bool, float)
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_Glitch9_NativeMediaPlayer_MediaItem_System_Boolean_System_Single_
+  commentId: M:Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.MediaItem,System.Boolean,System.Single)
+  name.vb: Initialize(MediaItem, Boolean, Single)
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.MediaItem, bool, float)
+  fullName.vb: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.MediaItem, Boolean, Single)
+  nameWithType: MediaPlayer.Initialize(MediaItem, bool, float)
+  nameWithType.vb: MediaPlayer.Initialize(MediaItem, Boolean, Single)
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.Playlist,System.Boolean,System.Int32,System.Single)
+  name: Initialize(Playlist, bool, int, float)
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_Glitch9_NativeMediaPlayer_Playlist_System_Boolean_System_Int32_System_Single_
+  commentId: M:Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.Playlist,System.Boolean,System.Int32,System.Single)
+  name.vb: Initialize(Playlist, Boolean, Integer, Single)
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.Playlist, bool, int, float)
+  fullName.vb: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(Glitch9.NativeMediaPlayer.Playlist, Boolean, Integer, Single)
+  nameWithType: MediaPlayer.Initialize(Playlist, bool, int, float)
+  nameWithType.vb: MediaPlayer.Initialize(Playlist, Boolean, Integer, Single)
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(System.Collections.Generic.IEnumerable{Glitch9.NativeMediaPlayer.Playlist},System.Boolean,System.Int32,System.Int32,System.Single)
+  name: Initialize(IEnumerable<Playlist>, bool, int, int, float)
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_System_Collections_Generic_IEnumerable_Glitch9_NativeMediaPlayer_Playlist__System_Boolean_System_Int32_System_Int32_System_Single_
+  commentId: M:Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(System.Collections.Generic.IEnumerable{Glitch9.NativeMediaPlayer.Playlist},System.Boolean,System.Int32,System.Int32,System.Single)
+  name.vb: Initialize(IEnumerable(Of Playlist), Boolean, Integer, Integer, Single)
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(System.Collections.Generic.IEnumerable<Glitch9.NativeMediaPlayer.Playlist>, bool, int, int, float)
+  fullName.vb: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize(System.Collections.Generic.IEnumerable(Of Glitch9.NativeMediaPlayer.Playlist), Boolean, Integer, Integer, Single)
+  nameWithType: MediaPlayer.Initialize(IEnumerable<Playlist>, bool, int, int, float)
+  nameWithType.vb: MediaPlayer.Initialize(IEnumerable(Of Playlist), Boolean, Integer, Integer, Single)
 - uid: Glitch9.NativeMediaPlayer.MediaPlayer.Initialize*
   name: Initialize
   href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_Initialize_
@@ -1562,6 +1598,136 @@ references:
   isSpec: "True"
   fullName: Glitch9.NativeMediaPlayer.MediaPlayer.Volume
   nameWithType: MediaPlayer.Volume
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onDownloadProgress
+  name: onDownloadProgress
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onDownloadProgress
+  commentId: P:Glitch9.NativeMediaPlayer.MediaPlayer.onDownloadProgress
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onDownloadProgress
+  nameWithType: MediaPlayer.onDownloadProgress
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onDownloadProgress*
+  name: onDownloadProgress
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onDownloadProgress_
+  commentId: Overload:Glitch9.NativeMediaPlayer.MediaPlayer.onDownloadProgress
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onDownloadProgress
+  nameWithType: MediaPlayer.onDownloadProgress
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onInitialized
+  name: onInitialized
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onInitialized
+  commentId: P:Glitch9.NativeMediaPlayer.MediaPlayer.onInitialized
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onInitialized
+  nameWithType: MediaPlayer.onInitialized
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onInitialized*
+  name: onInitialized
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onInitialized_
+  commentId: Overload:Glitch9.NativeMediaPlayer.MediaPlayer.onInitialized
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onInitialized
+  nameWithType: MediaPlayer.onInitialized
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onIsLoadingChanged
+  name: onIsLoadingChanged
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onIsLoadingChanged
+  commentId: P:Glitch9.NativeMediaPlayer.MediaPlayer.onIsLoadingChanged
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onIsLoadingChanged
+  nameWithType: MediaPlayer.onIsLoadingChanged
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onIsLoadingChanged*
+  name: onIsLoadingChanged
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onIsLoadingChanged_
+  commentId: Overload:Glitch9.NativeMediaPlayer.MediaPlayer.onIsLoadingChanged
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onIsLoadingChanged
+  nameWithType: MediaPlayer.onIsLoadingChanged
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onIsPlayingChanged
+  name: onIsPlayingChanged
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onIsPlayingChanged
+  commentId: P:Glitch9.NativeMediaPlayer.MediaPlayer.onIsPlayingChanged
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onIsPlayingChanged
+  nameWithType: MediaPlayer.onIsPlayingChanged
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onIsPlayingChanged*
+  name: onIsPlayingChanged
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onIsPlayingChanged_
+  commentId: Overload:Glitch9.NativeMediaPlayer.MediaPlayer.onIsPlayingChanged
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onIsPlayingChanged
+  nameWithType: MediaPlayer.onIsPlayingChanged
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onMediaItemTransition
+  name: onMediaItemTransition
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onMediaItemTransition
+  commentId: P:Glitch9.NativeMediaPlayer.MediaPlayer.onMediaItemTransition
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onMediaItemTransition
+  nameWithType: MediaPlayer.onMediaItemTransition
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onMediaItemTransition*
+  name: onMediaItemTransition
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onMediaItemTransition_
+  commentId: Overload:Glitch9.NativeMediaPlayer.MediaPlayer.onMediaItemTransition
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onMediaItemTransition
+  nameWithType: MediaPlayer.onMediaItemTransition
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onPlaybackStateChanged
+  name: onPlaybackStateChanged
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onPlaybackStateChanged
+  commentId: P:Glitch9.NativeMediaPlayer.MediaPlayer.onPlaybackStateChanged
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onPlaybackStateChanged
+  nameWithType: MediaPlayer.onPlaybackStateChanged
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onPlaybackStateChanged*
+  name: onPlaybackStateChanged
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onPlaybackStateChanged_
+  commentId: Overload:Glitch9.NativeMediaPlayer.MediaPlayer.onPlaybackStateChanged
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onPlaybackStateChanged
+  nameWithType: MediaPlayer.onPlaybackStateChanged
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onPlayerError
+  name: onPlayerError
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onPlayerError
+  commentId: P:Glitch9.NativeMediaPlayer.MediaPlayer.onPlayerError
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onPlayerError
+  nameWithType: MediaPlayer.onPlayerError
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onPlayerError*
+  name: onPlayerError
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onPlayerError_
+  commentId: Overload:Glitch9.NativeMediaPlayer.MediaPlayer.onPlayerError
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onPlayerError
+  nameWithType: MediaPlayer.onPlayerError
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onPlaylistLoaded
+  name: onPlaylistLoaded
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onPlaylistLoaded
+  commentId: P:Glitch9.NativeMediaPlayer.MediaPlayer.onPlaylistLoaded
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onPlaylistLoaded
+  nameWithType: MediaPlayer.onPlaylistLoaded
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onPlaylistLoaded*
+  name: onPlaylistLoaded
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onPlaylistLoaded_
+  commentId: Overload:Glitch9.NativeMediaPlayer.MediaPlayer.onPlaylistLoaded
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onPlaylistLoaded
+  nameWithType: MediaPlayer.onPlaylistLoaded
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onRepeatModeChanged
+  name: onRepeatModeChanged
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onRepeatModeChanged
+  commentId: P:Glitch9.NativeMediaPlayer.MediaPlayer.onRepeatModeChanged
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onRepeatModeChanged
+  nameWithType: MediaPlayer.onRepeatModeChanged
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onRepeatModeChanged*
+  name: onRepeatModeChanged
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onRepeatModeChanged_
+  commentId: Overload:Glitch9.NativeMediaPlayer.MediaPlayer.onRepeatModeChanged
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onRepeatModeChanged
+  nameWithType: MediaPlayer.onRepeatModeChanged
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onShuffleModeEnabledChanged
+  name: onShuffleModeEnabledChanged
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onShuffleModeEnabledChanged
+  commentId: P:Glitch9.NativeMediaPlayer.MediaPlayer.onShuffleModeEnabledChanged
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onShuffleModeEnabledChanged
+  nameWithType: MediaPlayer.onShuffleModeEnabledChanged
+- uid: Glitch9.NativeMediaPlayer.MediaPlayer.onShuffleModeEnabledChanged*
+  name: onShuffleModeEnabledChanged
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayer.html#Glitch9_NativeMediaPlayer_MediaPlayer_onShuffleModeEnabledChanged_
+  commentId: Overload:Glitch9.NativeMediaPlayer.MediaPlayer.onShuffleModeEnabledChanged
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayer.onShuffleModeEnabledChanged
+  nameWithType: MediaPlayer.onShuffleModeEnabledChanged
 - uid: Glitch9.NativeMediaPlayer.MediaPlayerControlEventsListener
   name: MediaPlayerControlEventsListener
   href: api/Glitch9.NativeMediaPlayer.MediaPlayerControlEventsListener.html
@@ -1901,12 +2067,6 @@ references:
   commentId: T:Glitch9.NativeMediaPlayer.NativeMediaPlayer
   fullName: Glitch9.NativeMediaPlayer.NativeMediaPlayer
   nameWithType: NativeMediaPlayer
-- uid: Glitch9.NativeMediaPlayer.NativeMediaPlayer.ControlEvents
-  name: ControlEvents
-  href: api/Glitch9.NativeMediaPlayer.NativeMediaPlayer.html#Glitch9_NativeMediaPlayer_NativeMediaPlayer_ControlEvents
-  commentId: F:Glitch9.NativeMediaPlayer.NativeMediaPlayer.ControlEvents
-  fullName: Glitch9.NativeMediaPlayer.NativeMediaPlayer.ControlEvents
-  nameWithType: NativeMediaPlayer.ControlEvents
 - uid: Glitch9.NativeMediaPlayer.NativeMediaPlayer.Instance
   name: Instance
   href: api/Glitch9.NativeMediaPlayer.NativeMediaPlayer.html#Glitch9_NativeMediaPlayer_NativeMediaPlayer_Instance
@@ -1962,31 +2122,6 @@ references:
   isSpec: "True"
   fullName: Glitch9.NativeMediaPlayer.NativeMediaPlayer.OnShuffleModeEnabledChanged
   nameWithType: NativeMediaPlayer.OnShuffleModeEnabledChanged
-- uid: Glitch9.NativeMediaPlayer.NativeMediaPlayer.PlayOnStart
-  name: PlayOnStart
-  href: api/Glitch9.NativeMediaPlayer.NativeMediaPlayer.html#Glitch9_NativeMediaPlayer_NativeMediaPlayer_PlayOnStart
-  commentId: P:Glitch9.NativeMediaPlayer.NativeMediaPlayer.PlayOnStart
-  fullName: Glitch9.NativeMediaPlayer.NativeMediaPlayer.PlayOnStart
-  nameWithType: NativeMediaPlayer.PlayOnStart
-- uid: Glitch9.NativeMediaPlayer.NativeMediaPlayer.PlayOnStart*
-  name: PlayOnStart
-  href: api/Glitch9.NativeMediaPlayer.NativeMediaPlayer.html#Glitch9_NativeMediaPlayer_NativeMediaPlayer_PlayOnStart_
-  commentId: Overload:Glitch9.NativeMediaPlayer.NativeMediaPlayer.PlayOnStart
-  isSpec: "True"
-  fullName: Glitch9.NativeMediaPlayer.NativeMediaPlayer.PlayOnStart
-  nameWithType: NativeMediaPlayer.PlayOnStart
-- uid: Glitch9.NativeMediaPlayer.NativeMediaPlayer.StateEvents
-  name: StateEvents
-  href: api/Glitch9.NativeMediaPlayer.NativeMediaPlayer.html#Glitch9_NativeMediaPlayer_NativeMediaPlayer_StateEvents
-  commentId: F:Glitch9.NativeMediaPlayer.NativeMediaPlayer.StateEvents
-  fullName: Glitch9.NativeMediaPlayer.NativeMediaPlayer.StateEvents
-  nameWithType: NativeMediaPlayer.StateEvents
-- uid: Glitch9.NativeMediaPlayer.NativeMediaPlayer.SystemEvents
-  name: SystemEvents
-  href: api/Glitch9.NativeMediaPlayer.NativeMediaPlayer.html#Glitch9_NativeMediaPlayer_NativeMediaPlayer_SystemEvents
-  commentId: F:Glitch9.NativeMediaPlayer.NativeMediaPlayer.SystemEvents
-  fullName: Glitch9.NativeMediaPlayer.NativeMediaPlayer.SystemEvents
-  nameWithType: NativeMediaPlayer.SystemEvents
 - uid: Glitch9.NativeMediaPlayer.NativeMediaPlayer.UnityReceiveDownloadProgress(System.String)
   name: UnityReceiveDownloadProgress(string)
   href: api/Glitch9.NativeMediaPlayer.NativeMediaPlayer.html#Glitch9_NativeMediaPlayer_NativeMediaPlayer_UnityReceiveDownloadProgress_System_String_
@@ -2051,6 +2186,18 @@ references:
   isSpec: "True"
   fullName: Glitch9.NativeMediaPlayer.NativeMediaPlayer.UnityReceiveMessage
   nameWithType: NativeMediaPlayer.UnityReceiveMessage
+- uid: Glitch9.NativeMediaPlayer.NativeMediaPlayer.mediaControlEventsReceiver
+  name: mediaControlEventsReceiver
+  href: api/Glitch9.NativeMediaPlayer.NativeMediaPlayer.html#Glitch9_NativeMediaPlayer_NativeMediaPlayer_mediaControlEventsReceiver
+  commentId: F:Glitch9.NativeMediaPlayer.NativeMediaPlayer.mediaControlEventsReceiver
+  fullName: Glitch9.NativeMediaPlayer.NativeMediaPlayer.mediaControlEventsReceiver
+  nameWithType: NativeMediaPlayer.mediaControlEventsReceiver
+- uid: Glitch9.NativeMediaPlayer.NativeMediaPlayer.playbackStateEventsReceiver
+  name: playbackStateEventsReceiver
+  href: api/Glitch9.NativeMediaPlayer.NativeMediaPlayer.html#Glitch9_NativeMediaPlayer_NativeMediaPlayer_playbackStateEventsReceiver
+  commentId: F:Glitch9.NativeMediaPlayer.NativeMediaPlayer.playbackStateEventsReceiver
+  fullName: Glitch9.NativeMediaPlayer.NativeMediaPlayer.playbackStateEventsReceiver
+  nameWithType: NativeMediaPlayer.playbackStateEventsReceiver
 - uid: Glitch9.NativeMediaPlayer.PlaybackState
   name: PlaybackState
   href: api/Glitch9.NativeMediaPlayer.PlaybackState.html
@@ -2081,6 +2228,42 @@ references:
   commentId: F:Glitch9.NativeMediaPlayer.PlaybackState.Ready
   fullName: Glitch9.NativeMediaPlayer.PlaybackState.Ready
   nameWithType: PlaybackState.Ready
+- uid: Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver
+  name: PlaybackStateEventsReceiver
+  href: api/Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.html
+  commentId: T:Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver
+  fullName: Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver
+  nameWithType: PlaybackStateEventsReceiver
+- uid: Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onInitialized
+  name: onInitialized
+  href: api/Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.html#Glitch9_NativeMediaPlayer_PlaybackStateEventsReceiver_onInitialized
+  commentId: F:Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onInitialized
+  fullName: Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onInitialized
+  nameWithType: PlaybackStateEventsReceiver.onInitialized
+- uid: Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onIsLoadingChanged
+  name: onIsLoadingChanged
+  href: api/Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.html#Glitch9_NativeMediaPlayer_PlaybackStateEventsReceiver_onIsLoadingChanged
+  commentId: F:Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onIsLoadingChanged
+  fullName: Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onIsLoadingChanged
+  nameWithType: PlaybackStateEventsReceiver.onIsLoadingChanged
+- uid: Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onIsPlayingChanged
+  name: onIsPlayingChanged
+  href: api/Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.html#Glitch9_NativeMediaPlayer_PlaybackStateEventsReceiver_onIsPlayingChanged
+  commentId: F:Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onIsPlayingChanged
+  fullName: Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onIsPlayingChanged
+  nameWithType: PlaybackStateEventsReceiver.onIsPlayingChanged
+- uid: Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onPlaybackStateChanged
+  name: onPlaybackStateChanged
+  href: api/Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.html#Glitch9_NativeMediaPlayer_PlaybackStateEventsReceiver_onPlaybackStateChanged
+  commentId: F:Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onPlaybackStateChanged
+  fullName: Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onPlaybackStateChanged
+  nameWithType: PlaybackStateEventsReceiver.onPlaybackStateChanged
+- uid: Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onPlayerError
+  name: onPlayerError
+  href: api/Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.html#Glitch9_NativeMediaPlayer_PlaybackStateEventsReceiver_onPlayerError
+  commentId: F:Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onPlayerError
+  fullName: Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.onPlayerError
+  nameWithType: PlaybackStateEventsReceiver.onPlayerError
 - uid: Glitch9.NativeMediaPlayer.PlaybackStateExtensions
   name: PlaybackStateExtensions
   href: api/Glitch9.NativeMediaPlayer.PlaybackStateExtensions.html
@@ -2606,6 +2789,103 @@ references:
   isSpec: "True"
   fullName: Glitch9.NativeMediaPlayer.Settings.MediaPlayerSettings.StartMediaItemIndex
   nameWithType: MediaPlayerSettings.StartMediaItemIndex
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings
+  name: NativeMediaPlayerSettings
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html
+  commentId: T:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings
+  nameWithType: NativeMediaPlayerSettings
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.BackgroundControlsEnabled
+  name: BackgroundControlsEnabled
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html#Glitch9_NativeMediaPlayer_Settings_NativeMediaPlayerSettings_BackgroundControlsEnabled
+  commentId: P:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.BackgroundControlsEnabled
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.BackgroundControlsEnabled
+  nameWithType: NativeMediaPlayerSettings.BackgroundControlsEnabled
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.BackgroundControlsEnabled*
+  name: BackgroundControlsEnabled
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html#Glitch9_NativeMediaPlayer_Settings_NativeMediaPlayerSettings_BackgroundControlsEnabled_
+  commentId: Overload:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.BackgroundControlsEnabled
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.BackgroundControlsEnabled
+  nameWithType: NativeMediaPlayerSettings.BackgroundControlsEnabled
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.BackgroundPlayEnabled
+  name: BackgroundPlayEnabled
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html#Glitch9_NativeMediaPlayer_Settings_NativeMediaPlayerSettings_BackgroundPlayEnabled
+  commentId: P:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.BackgroundPlayEnabled
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.BackgroundPlayEnabled
+  nameWithType: NativeMediaPlayerSettings.BackgroundPlayEnabled
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.BackgroundPlayEnabled*
+  name: BackgroundPlayEnabled
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html#Glitch9_NativeMediaPlayer_Settings_NativeMediaPlayerSettings_BackgroundPlayEnabled_
+  commentId: Overload:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.BackgroundPlayEnabled
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.BackgroundPlayEnabled
+  nameWithType: NativeMediaPlayerSettings.BackgroundPlayEnabled
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.DarkModeDisabledColor
+  name: DarkModeDisabledColor
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html#Glitch9_NativeMediaPlayer_Settings_NativeMediaPlayerSettings_DarkModeDisabledColor
+  commentId: P:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.DarkModeDisabledColor
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.DarkModeDisabledColor
+  nameWithType: NativeMediaPlayerSettings.DarkModeDisabledColor
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.DarkModeDisabledColor*
+  name: DarkModeDisabledColor
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html#Glitch9_NativeMediaPlayer_Settings_NativeMediaPlayerSettings_DarkModeDisabledColor_
+  commentId: Overload:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.DarkModeDisabledColor
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.DarkModeDisabledColor
+  nameWithType: NativeMediaPlayerSettings.DarkModeDisabledColor
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.DarkModeEnabledColor
+  name: DarkModeEnabledColor
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html#Glitch9_NativeMediaPlayer_Settings_NativeMediaPlayerSettings_DarkModeEnabledColor
+  commentId: P:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.DarkModeEnabledColor
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.DarkModeEnabledColor
+  nameWithType: NativeMediaPlayerSettings.DarkModeEnabledColor
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.DarkModeEnabledColor*
+  name: DarkModeEnabledColor
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html#Glitch9_NativeMediaPlayer_Settings_NativeMediaPlayerSettings_DarkModeEnabledColor_
+  commentId: Overload:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.DarkModeEnabledColor
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.DarkModeEnabledColor
+  nameWithType: NativeMediaPlayerSettings.DarkModeEnabledColor
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.Initialize
+  name: Initialize()
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html#Glitch9_NativeMediaPlayer_Settings_NativeMediaPlayerSettings_Initialize
+  commentId: M:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.Initialize
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.Initialize()
+  nameWithType: NativeMediaPlayerSettings.Initialize()
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.Initialize*
+  name: Initialize
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html#Glitch9_NativeMediaPlayer_Settings_NativeMediaPlayerSettings_Initialize_
+  commentId: Overload:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.Initialize
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.Initialize
+  nameWithType: NativeMediaPlayerSettings.Initialize
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.LightModeDisabledColor
+  name: LightModeDisabledColor
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html#Glitch9_NativeMediaPlayer_Settings_NativeMediaPlayerSettings_LightModeDisabledColor
+  commentId: P:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.LightModeDisabledColor
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.LightModeDisabledColor
+  nameWithType: NativeMediaPlayerSettings.LightModeDisabledColor
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.LightModeDisabledColor*
+  name: LightModeDisabledColor
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html#Glitch9_NativeMediaPlayer_Settings_NativeMediaPlayerSettings_LightModeDisabledColor_
+  commentId: Overload:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.LightModeDisabledColor
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.LightModeDisabledColor
+  nameWithType: NativeMediaPlayerSettings.LightModeDisabledColor
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.LightModeEnabledColor
+  name: LightModeEnabledColor
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html#Glitch9_NativeMediaPlayer_Settings_NativeMediaPlayerSettings_LightModeEnabledColor
+  commentId: P:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.LightModeEnabledColor
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.LightModeEnabledColor
+  nameWithType: NativeMediaPlayerSettings.LightModeEnabledColor
+- uid: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.LightModeEnabledColor*
+  name: LightModeEnabledColor
+  href: api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html#Glitch9_NativeMediaPlayer_Settings_NativeMediaPlayerSettings_LightModeEnabledColor_
+  commentId: Overload:Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.LightModeEnabledColor
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.LightModeEnabledColor
+  nameWithType: NativeMediaPlayerSettings.LightModeEnabledColor
 - uid: Glitch9.NativeMediaPlayer.Settings.iOSSettings
   name: iOSSettings
   href: api/Glitch9.NativeMediaPlayer.Settings.iOSSettings.html

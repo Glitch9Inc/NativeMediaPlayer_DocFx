@@ -82,6 +82,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.MediaControlEventsReceiver",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Glitch9.NativeMediaPlayer.MediaItem.yml",
       "output": {
         ".html": {
@@ -264,6 +278,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Glitch9.NativeMediaPlayer.PlaybackStateExtensions.yml",
       "output": {
         ".html": {
@@ -372,6 +400,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Glitch9.NativeMediaPlayer.Settings.MediaPlayerSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.Settings.NativeMediaPlayerSettings",
       "Summary": null
     },
     {
