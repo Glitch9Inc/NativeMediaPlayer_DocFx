@@ -86,9 +86,10 @@
 Classes
 </h3>
       <h4><a class="xref" href="Glitch9.NativeMediaPlayer.Artwork.html">Artwork</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Glitch9.NativeMediaPlayer.ArtworkJsonConverter.html">ArtworkJsonConverter</a></h4>
-      <section></section>
+      <section><p>Represents the artwork for a media item.<br>
+This class can be used to store the artwork as a Sprite, and it can also handle the conversion to and from Base64 strings for serialization.<br>
+It supports different image types to determine how the image data should be handled when sending it to the native player.</p>
+</section>
       <h4><a class="xref" href="Glitch9.NativeMediaPlayer.MediaControlEventsReceiver.html">MediaControlEventsReceiver</a></h4>
       <section></section>
       <h4><a class="xref" href="Glitch9.NativeMediaPlayer.MediaItem.html">MediaItem</a></h4>
@@ -99,15 +100,13 @@ Classes
       <section></section>
       <h4><a class="xref" href="Glitch9.NativeMediaPlayer.MediaPlayer.html">MediaPlayer</a></h4>
       <section></section>
-      <h4><a class="xref" href="Glitch9.NativeMediaPlayer.MediaUri.html">MediaUri</a></h4>
+      <h4><a class="xref" href="Glitch9.NativeMediaPlayer.MediaPlayerExtensions.html">MediaPlayerExtensions</a></h4>
       <section></section>
-      <h4><a class="xref" href="Glitch9.NativeMediaPlayer.NMPExtensions.html">NMPExtensions</a></h4>
+      <h4><a class="xref" href="Glitch9.NativeMediaPlayer.MediaUri.html">MediaUri</a></h4>
       <section></section>
       <h4><a class="xref" href="Glitch9.NativeMediaPlayer.NativeMediaPlayer.html">NativeMediaPlayer</a></h4>
       <section></section>
       <h4><a class="xref" href="Glitch9.NativeMediaPlayer.PlaybackStateEventsReceiver.html">PlaybackStateEventsReceiver</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Glitch9.NativeMediaPlayer.PlaybackStateExtensions.html">PlaybackStateExtensions</a></h4>
       <section></section>
       <h4><a class="xref" href="Glitch9.NativeMediaPlayer.Playlist.html">Playlist</a></h4>
       <section></section>
@@ -117,7 +116,14 @@ Classes
 Enums
 </h3>
       <h4><a class="xref" href="Glitch9.NativeMediaPlayer.ImageType.html">ImageType</a></h4>
-      <section></section>
+      <section><p>Represents how the image data will transfer to the native side.<br>
+This is used to determine how the image data should be handled when sending it to the native player.<br></p>
+<ul>
+<li>Base64: The image data is encoded as a Base64 string.<br></li>
+<li>StreamingAssets: The image is loaded from the StreamingAssets folder.<br></li>
+<li>PersistentDataPath: The image is loaded from the PersistentDataPath folder.<br></li>
+</ul>
+</section>
       <h4><a class="xref" href="Glitch9.NativeMediaPlayer.PlaybackState.html">PlaybackState</a></h4>
       <section><p>Android ExoPlayer-Style Playback State</p>
 </section>

@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Enum ImageType | Native Media Player ">
     
-    
+    <meta name="description" content="Represents how the image data will transfer to the native side. This is used to determine how the image data should be handled when sending it to the native player.  Base64: The image data is encoded as a Base64 string. StreamingAssets: The image is loaded from the StreamingAssets folder. PersistentDataPath: The image is loaded from the PersistentDataPath folder.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -82,7 +82,14 @@
 
 
   <h1 id="Glitch9_NativeMediaPlayer_ImageType" data-uid="Glitch9.NativeMediaPlayer.ImageType" class="text-break">Enum ImageType</h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Represents how the image data will transfer to the native side.<br>
+This is used to determine how the image data should be handled when sending it to the native player.<br></p>
+<ul>
+<li>Base64: The image data is encoded as a Base64 string.<br></li>
+<li>StreamingAssets: The image is loaded from the StreamingAssets folder.<br></li>
+<li>PersistentDataPath: The image is loaded from the PersistentDataPath folder.<br></li>
+</ul>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Glitch9.html">Glitch9</a>.<a class="xref" href="Glitch9.NativeMediaPlayer.html">NativeMediaPlayer</a></h6>
   <h6><strong>Assembly</strong>: .dll</h6>
@@ -102,15 +109,21 @@
     </thead></thead><tbody>
       <tr>
         <td id="Glitch9_NativeMediaPlayer_ImageType_Base64">Base64</td>
-        <td></td>
+        <td><p>The image data is encoded as a Base64 string.<br>
+This is the default type and is used when the image is small enough to be encoded.</p>
+</td>
       </tr>
       <tr>
         <td id="Glitch9_NativeMediaPlayer_ImageType_PersistentDataPath">PersistentDataPath</td>
-        <td></td>
+        <td><p>The image will be copied to the PersistentDataPath folder, and the path will be sent to the native player.<br>
+The native player will then load the image from the PersistentDataPath folder.</p>
+</td>
       </tr>
       <tr>
         <td id="Glitch9_NativeMediaPlayer_ImageType_StreamingAssets">StreamingAssets</td>
-        <td></td>
+        <td><p>The image will be copied to the StreamingAssets folder, and the path will be sent to the native player.<br>
+The native player will then load the image from the StreamingAssets folder.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -125,7 +138,7 @@
                     <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/new/main/apiSpec/new?filename=Glitch9_NativeMediaPlayer_ImageType.md&amp;value=---%0Auid%3A%20Glitch9.NativeMediaPlayer.ImageType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Models/MediaMetadata/Artwork.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Glitch9Inc/Unity.NativeMediaPlayer/blob/main/Runtime/Scripts/Models/MediaMetadata/Artwork.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

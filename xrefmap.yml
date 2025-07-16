@@ -1752,6 +1752,38 @@ references:
   commentId: F:Glitch9.NativeMediaPlayer.MediaPlayerControlEventsListener.onShuffleModeEnabledChanged
   fullName: Glitch9.NativeMediaPlayer.MediaPlayerControlEventsListener.onShuffleModeEnabledChanged
   nameWithType: MediaPlayerControlEventsListener.onShuffleModeEnabledChanged
+- uid: Glitch9.NativeMediaPlayer.MediaPlayerExtensions
+  name: MediaPlayerExtensions
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayerExtensions.html
+  commentId: T:Glitch9.NativeMediaPlayer.MediaPlayerExtensions
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayerExtensions
+  nameWithType: MediaPlayerExtensions
+- uid: Glitch9.NativeMediaPlayer.MediaPlayerExtensions.ToDisplayString(Glitch9.NativeMediaPlayer.PlaybackState)
+  name: ToDisplayString(PlaybackState)
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayerExtensions.html#Glitch9_NativeMediaPlayer_MediaPlayerExtensions_ToDisplayString_Glitch9_NativeMediaPlayer_PlaybackState_
+  commentId: M:Glitch9.NativeMediaPlayer.MediaPlayerExtensions.ToDisplayString(Glitch9.NativeMediaPlayer.PlaybackState)
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayerExtensions.ToDisplayString(Glitch9.NativeMediaPlayer.PlaybackState)
+  nameWithType: MediaPlayerExtensions.ToDisplayString(PlaybackState)
+- uid: Glitch9.NativeMediaPlayer.MediaPlayerExtensions.ToDisplayString*
+  name: ToDisplayString
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayerExtensions.html#Glitch9_NativeMediaPlayer_MediaPlayerExtensions_ToDisplayString_
+  commentId: Overload:Glitch9.NativeMediaPlayer.MediaPlayerExtensions.ToDisplayString
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayerExtensions.ToDisplayString
+  nameWithType: MediaPlayerExtensions.ToDisplayString
+- uid: Glitch9.NativeMediaPlayer.MediaPlayerExtensions.ToPlaylist(Glitch9.NativeMediaPlayer.MediaItem)
+  name: ToPlaylist(MediaItem)
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayerExtensions.html#Glitch9_NativeMediaPlayer_MediaPlayerExtensions_ToPlaylist_Glitch9_NativeMediaPlayer_MediaItem_
+  commentId: M:Glitch9.NativeMediaPlayer.MediaPlayerExtensions.ToPlaylist(Glitch9.NativeMediaPlayer.MediaItem)
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayerExtensions.ToPlaylist(Glitch9.NativeMediaPlayer.MediaItem)
+  nameWithType: MediaPlayerExtensions.ToPlaylist(MediaItem)
+- uid: Glitch9.NativeMediaPlayer.MediaPlayerExtensions.ToPlaylist*
+  name: ToPlaylist
+  href: api/Glitch9.NativeMediaPlayer.MediaPlayerExtensions.html#Glitch9_NativeMediaPlayer_MediaPlayerExtensions_ToPlaylist_
+  commentId: Overload:Glitch9.NativeMediaPlayer.MediaPlayerExtensions.ToPlaylist
+  isSpec: "True"
+  fullName: Glitch9.NativeMediaPlayer.MediaPlayerExtensions.ToPlaylist
+  nameWithType: MediaPlayerExtensions.ToPlaylist
 - uid: Glitch9.NativeMediaPlayer.MediaPlayerSettings
   name: MediaPlayerSettings
   href: api/Glitch9.NativeMediaPlayer.MediaPlayerSettings.html

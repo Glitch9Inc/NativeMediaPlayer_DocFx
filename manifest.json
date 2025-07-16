@@ -50,7 +50,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Glitch9.NativeMediaPlayer.Artwork",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Glitch9.NativeMediaPlayer.Artwork.yml\" sourcestartlinenumber=\"1\">Represents the artwork for a media item.<br>\nThis class can be used to store the artwork as a Sprite, and it can also handle the conversion to and from Base64 strings for serialization.<br>\nIt supports different image types to determine how the image data should be handled when sending it to the native player.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -78,7 +78,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Glitch9.NativeMediaPlayer.ImageType",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Glitch9.NativeMediaPlayer.ImageType.yml\" sourcestartlinenumber=\"1\">Represents how the image data will transfer to the native side.<br>\nThis is used to determine how the image data should be handled when sending it to the native player.<br></p>\n<ul sourcefile=\"api/Glitch9.NativeMediaPlayer.ImageType.yml\" sourcestartlinenumber=\"3\">\n<li sourcefile=\"api/Glitch9.NativeMediaPlayer.ImageType.yml\" sourcestartlinenumber=\"3\">Base64: The image data is encoded as a Base64 string.<br></li>\n<li sourcefile=\"api/Glitch9.NativeMediaPlayer.ImageType.yml\" sourcestartlinenumber=\"4\">StreamingAssets: The image is loaded from the StreamingAssets folder.<br></li>\n<li sourcefile=\"api/Glitch9.NativeMediaPlayer.ImageType.yml\" sourcestartlinenumber=\"5\">PersistentDataPath: The image is loaded from the PersistentDataPath folder.<br></li>\n</ul>\n"
     },
     {
       "type": "ManagedReference",
@@ -162,6 +162,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Glitch9.NativeMediaPlayer.MediaPlayerControlEventsListener",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glitch9.NativeMediaPlayer.MediaPlayerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glitch9.NativeMediaPlayer.MediaPlayerExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Glitch9.NativeMediaPlayer.MediaPlayerExtensions",
       "Summary": null
     },
     {
@@ -582,7 +596,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Glitch9.NativeMediaPlayer.UI.MediaIndexFormat",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Glitch9.NativeMediaPlayer.UI.MediaIndexFormat.yml\" sourcestartlinenumber=\"1\">Format options for displaying media track index.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -596,7 +610,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Glitch9.NativeMediaPlayer.UI.MediaInfoText",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Glitch9.NativeMediaPlayer.UI.MediaInfoText.yml\" sourcestartlinenumber=\"1\">Updates a Text or TextMeshProUGUI component with information about the currently playing media.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -610,7 +624,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Glitch9.NativeMediaPlayer.UI.MediaInfoType",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Glitch9.NativeMediaPlayer.UI.MediaInfoType.yml\" sourcestartlinenumber=\"1\">Type of media info to display in a text UI component.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -638,7 +652,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Glitch9.NativeMediaPlayer.UI.MediaTimeFormat",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Glitch9.NativeMediaPlayer.UI.MediaTimeFormat.yml\" sourcestartlinenumber=\"1\">Format options for displaying media playback time.</p>\n"
     },
     {
       "type": "ManagedReference",
